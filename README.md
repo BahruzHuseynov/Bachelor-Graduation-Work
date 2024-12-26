@@ -28,9 +28,71 @@ It is a research based project in which the main purpose was to apply EfficientN
 <img src="images/EfficientNet-B1.png">
 
 ## Architecture Blocks 
-<img src="images/MBConv_Block.png">
-<img src="images/Squeeze_and_Execution_Block.png">
-<img src="images/Final_layers.png">
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive 3-Column Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .column {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .column {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <img src="images/MBConv_Block.png" alt="MBConv Block">
+        </div>
+        <div class="column">
+            <img src="images/Squeeze_and_Execution_Block.png" alt="Squeeze and Execution Block">
+        </div>
+        <div class="column">
+            <img src="images/Final_layers.png" alt="Final Layers">
+        </div>
+    </div>
+</body>
+</html>
+``
 
 ## Models
 - Jupyter Notebook named "Fine-Tuning Detection Models" is used to fine-tune the YOLOv8 and RT-DETR and save the parameters
