@@ -29,8 +29,9 @@ It is a research based project in which the main purpose was to apply EfficientN
 
 ## Architecture Blocks 
 <div style='vertical-align:middle; display:inline;'>
-   <img src="images/MBConv_Block.png" width="150px">
-   <img src="images/MBConv_Block.png" width="150px">
+   <img src="images/MBConv_Block.png">
+   <img src="images/Squeeze_and_Execution_Block.png">
+   <img src="images/Final_layers.png">
 </div>
 
 ## Models
