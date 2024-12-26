@@ -1,26 +1,27 @@
 <div align="center">
    <h1>EfficientNet B0 and B1 built from scratch applied on the Bird Multi-class classification</h1>
-   <h2>Bachelor Graduation Work</h2>
+   <h2> (Bachelor Graduation Work)</h2>
    <img src = "images/BHOS_logo.png" alt="BHOS Logo">
 </div>
 
-It is a research based project in which object detection, segmentation, and tracking algorithms focusing on LEGO bricks in real-world video recordings are used. Using YOLOv8 and RT-DETR models for the detection, DeepLabv3 for semantic segmentation and DeepSORT for tracking, the research evaluates performance in building an object counter. <b> For the detailed information, you can read the report. </b>
+It is a research based project in which the main purpose was to apply EfficientNet from scratch with varying hyperparameters and compare the results with the pre-trained and fine-tuned models.
 
 ## Technology
-- **Python**: Main programming language. ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-- **PyTorch**: Machine Learning framework. <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/PyTorch-Dark.svg" alt="PyTorch" width="30" />
-- **Ultralytics**: AI platform that makes the usage of YOLOv8 and RT-DETR models easy. <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDfTFONBFO8j91aS1lQPb9jfARtTFP1B82Q&s" alt="Ultralytics" width="50" />
-- **OpenCV**: Used for controlling video frames and processing them. <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/OpenCV-Dark.svg" alt="OpenCV" width="30" />
-- **RoboFlow**: It is a platform used to annotate images with boundary boxes. <img src = "https://d7umqicpi7263.cloudfront.net/img/product/8305253e-2066-4396-9e9a-f0f9b97e75b9.png" alt = "RoboFlow" width = "90"/>
-- **Kaggle**: This platform has been used to store data. <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtXL5iMUpyo9rv-wJGjZiR62QPubHeI6-wA&s" alt="Kaggle Logo" width="70">
+- **Python**: Main programming language. <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt = "Python" height="30" >
+- **PyTorch**: Machine Learning framework. <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/PyTorch-Dark.svg" alt="PyTorch" height="30" />
+- **Scikit-learn**: An open-source library in Python that helps us implement machine learning models. <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png" alt="Scikit-learn"  height="30" />
 
-## Google Colab <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSArk3D34rWqNoPw4_n-ovyK0lz3yvknTVZd9yeCdZrsdDEViqoPMmjhFWD-iy4NO1UiyI&usqp=CAU" alt="Colab" width="40">
-- To train or fine-tune detection and segmentation models, usage of GPU is recommended.
-- During research, codes have been executed in Google Colab as it is a hosted Jupyter Notebook service that provides free access to computing resources, including GPUs and TPUs.
+## Main Dataset: <a href="https://paperswithcode.com/dataset/cub-200-2011"> CUB-200-2011 (Caltech-UCSD Birds-200-2011) </a> 
+- 11 788 bird images
+- 200 labels
+- Each consists of 50-60 images
+- Bird images with different shapes (500x500, 200x200), positions (flying, swimming) and quality
 
-## Dataset
-- In this research, the dataset was manually created using a smartphone, consisting of 12 videos — 10 for training and 2 for testing. These videos capture conveyor belts with LEGO bricks from multiple angles with varying complexities for diversity. LEGO bricks were annotated frame-by-frame using RoboFlow (https://roboflow.com/), which was the most time-consuming step.
-- Dataset is publicly available in Kaggle: https://www.kaggle.com/datasets/hbahruz/multiple-lego-tracking-dataset
+## The second dataset:
+- 3324 bird images
+- 20 labels
+- All images have the static shape of 224x224
+- Regular quality
 
 ## Pipeline
 <div align="center">
