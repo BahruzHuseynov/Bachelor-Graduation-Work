@@ -29,6 +29,7 @@ It is a research based project in which the main purpose was to apply EfficientN
 
 ## Architecture Blocks 
 <img src="images/MBConv_Block.png">
+<img src="images/MBConv_Block.png">
 
 ## Models
 - Jupyter Notebook named "Fine-Tuning Detection Models" is used to fine-tune the YOLOv8 and RT-DETR and save the parameters
