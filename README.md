@@ -27,7 +27,7 @@ It is a research based project in which the main purpose was to apply EfficientN
 <img src="images/EfficientNet-B0.png" height="300px">
 <img src="images/EfficientNet-B1.png">
 
-## Architecture Blocks 
+## Architecture Blocks (MBConv, SE and Final blocks in sequence)
 <div style='vertical-align:middle; display:inline;'>
    <img src="images/MBConv_Block.png">
    <img src="images/Squeeze_and_Execution_Block.png">
