@@ -24,7 +24,7 @@ It is a research based project in which the main purpose was to apply EfficientN
 - Regular quality
 
 ## Architecture (B0 and B1 in sequence)
-<img src="images/EfficientNet-B0.png" height="290px">
+<img src="images/EfficientNet-B0.png" height="300px">
 <img src="images/EfficientNet-B1.png">
 
 ## Models
