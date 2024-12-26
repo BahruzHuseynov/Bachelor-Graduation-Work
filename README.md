@@ -27,6 +27,11 @@ It is a research based project in which the main purpose was to apply EfficientN
 <img src="images/EfficientNet-B0.png" height="300px">
 <img src="images/EfficientNet-B1.png">
 
+## Architecture Blocks 
+<img src="images/MBConv_Block.png">
+<img src="images/Squeeze_and_Execution_Block.png">
+<img src="images/Final_layers.png">
+
 ## Models
 - Jupyter Notebook named "Fine-Tuning Detection Models" is used to fine-tune the YOLOv8 and RT-DETR and save the parameters
 - data.yaml file is used in the training procedure of the detection models, which contains data path, augmentation types and other needy information
