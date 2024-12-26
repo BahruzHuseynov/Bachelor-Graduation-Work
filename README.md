@@ -1,6 +1,6 @@
 <div align="center">
-   <h1>EfficientNet B0 and B1 built from scratch applied on the Bird Multi-class classification</h1>
-   <h2> (Bachelor Graduation Work)</h2>
+   <h2>EfficientNet B0 and B1 built from scratch applied on the Bird Multi-class classification</h2>
+   <h1> (Bachelor Graduation Work)</h1>
    <img src = "images/BHOS_logo.png" alt="BHOS Logo">
 </div>
 
