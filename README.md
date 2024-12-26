@@ -1,6 +1,6 @@
 <div align="center">
    <h1> (Bachelor Graduation Work)</h1>
-   <h3>EfficientNet B0 and B1 built from scratch applied on the Bird Multi-class classification</h3>
+   <h3>EfficientNet B0 and B1 built from scratch applied on the Bird multi-class classification</h3>
    <img src = "images/BHOS_logo.png" alt="BHOS Logo">
 </div>
 
@@ -23,13 +23,9 @@ It is a research based project in which the main purpose was to apply EfficientN
 - All images have the static shape of 224x224
 - Regular quality
 
-## Pipeline
-<div align="center">
-   <img src="images/Pipeline_Main.png" alt="Pipeline" width="700">
-</div>
-
-## Pre-trained parameters
-- The folder contains .pt files of YOLOv8 and RT-DETR detection models which are the saved parameters of best YOLOv8 and best RT-DETR models represented in Lego_Results.xlsx (located under Results folder)
+## Architecture
+<img src="images/EfficientNet-B0.png">
+<img src="images/EfficientNet-B1.png">
 
 ## Models
 - Jupyter Notebook named "Fine-Tuning Detection Models" is used to fine-tune the YOLOv8 and RT-DETR and save the parameters
