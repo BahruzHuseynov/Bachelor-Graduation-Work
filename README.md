@@ -28,8 +28,10 @@ It is a research based project in which the main purpose was to apply EfficientN
 <img src="images/EfficientNet-B1.png">
 
 ## Architecture Blocks 
-<img src="images/MBConv_Block.png" width="150px">
-<img src="images/MBConv_Block.png" width="150px">
+<div style='vertical-align:middle; display:inline;'>
+   <img src="images/MBConv_Block.png" width="150px">
+   <img src="images/MBConv_Block.png" width="150px">
+</div>
 
 ## Models
 - Jupyter Notebook named "Fine-Tuning Detection Models" is used to fine-tune the YOLOv8 and RT-DETR and save the parameters
