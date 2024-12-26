@@ -23,8 +23,8 @@ It is a research based project in which the main purpose was to apply EfficientN
 - All images have the static shape of 224x224
 - Regular quality
 
-## Architecture
-<img src="images/EfficientNet-B0.png">
+## Architecture (B0 and B1 in sequence)
+<img src="images/EfficientNet-B0.png" width="300px">
 <img src="images/EfficientNet-B1.png">
 
 ## Models
