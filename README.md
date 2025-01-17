@@ -35,11 +35,13 @@ It is a research based project in which the main purpose was to apply EfficientN
 </div>
 
 ## Models
-- Jupyter Notebook named "Fine-Tuning Detection Models" is used to fine-tune the YOLOv8 and RT-DETR and save the parameters
-- data.yaml file is used in the training procedure of the detection models, which contains data path, augmentation types and other needy information
-- Jupyter Notebook named "Fine-Tuned RTDETR + DeepSORT" is a combination of the Detection-Tracking pipeline. YOLOv8 can also be used instead of RT-DETR with some minor changes.
+- EfficientNet-B0 and B1 models have been built from scratch and applied on the dataset
+- Pre-trained B0 and B1 models have been fine-tuned on the dataset
+- Results of the fine-tuned models and ones constructed from scratch have been analyzed and compared
 
 ## Results
-- The folder contains Lego_Results.xlsx which has all saved values during the execution of the codes
-- There are also some figures underlining important points obtained from the experiments
+- You can look at "Graduation_Work_Results.xlsx"
 
+## Used methodologies and analysis of results 
+- To deeply understand what has been done, you can read the "Bahruz_Huseynov_Graduation_Work.pdf" file
+- For the brief information "Project_Brief_Information.pdf" can be read
